@@ -5,8 +5,8 @@ import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
   return (
-      <div>
-        <NavBar/>
+      <div className="relative">
+        <NavBar />
         <Banner/>
         <Projects/>
       </div>

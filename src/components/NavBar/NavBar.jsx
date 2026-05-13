@@ -4,7 +4,7 @@ import Navlogo from "@/assets/SignatureLogo.png";
 
 const NavBar = () => {
   return (
-    <div className="navbar  shadow-sm bg-[#080808]">
+    <div className="navbar  shadow-sm   px-10 fixed top-0 left-0 w-full !bg-[#080808] !opacity-100 z-[9999] border-b-2 border-white/10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -28,44 +28,64 @@ const NavBar = () => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-xl space-y-2"
           >
-            <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
-              Projects
-            </li>
-            <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
-              Skills
-            </li>
-            <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
-              About
-            </li>
-            <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
-              Contact
-            </li>
+            <Link href={"#projects"}>
+              <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
+                Projects
+              </li>
+            </Link>
+            <Link href={""}>
+              <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
+                Skills
+              </li>
+            </Link>
+            <Link href={""}>
+              {" "}
+              <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
+                About
+              </li>
+            </Link>
+            <Link href={""}>
+              <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
+                Contact
+              </li>
+            </Link>
           </ul>
-        </div> 
+        </div>
 
-        <Link href={"/"} className="relative  z-50">
+        <Link href={"#home"} className="relative  z-50">
           <Image
             style="height: 38px; width: auto; max-width: 100%; display: block;"
             src={Navlogo}
             alt="NavLogo"
             className="w-60 "
           />
-        </Link> 
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal space-x-10 px-1 text-xl ">
-          <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
-            Projects
-          </li>
-          <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
-            Skills
-          </li>
-          <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
-            About
-          </li>
-          <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
-            Contact
-          </li>
+          <Link href={"#projects"}>
+            <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
+              Projects
+            </li>
+          </Link>
+          <Link href={""}>
+            {" "}
+            <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
+              Skills
+            </li>
+          </Link>
+          <Link href={""}>
+            {" "}
+            <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
+              About
+            </li>
+          </Link>
+          <Link href={""}>
+            {" "}
+            <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
+              Contact
+            </li>
+          </Link>
         </ul>
       </div>
       <div className="navbar-end ">
@@ -78,7 +98,7 @@ const NavBar = () => {
         >
           <Link
             href={""}
-            className="btn items-center gap-2 px-6 py-2 bg-black rounded-md text-white w-full h-full text-lg hover:bg-[#2a2a2a] transition-all duration-200 "
+            className="btn items-center gap-2 sm:px-6 py-2 bg-black rounded-md text-white w-full h-full sm:text-lg hover:bg-emerald-600 transition-all duration-200 "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
