@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      // data-theme="light"
       className={`${bricolageGrotesque.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col bg-black">{children}</body>

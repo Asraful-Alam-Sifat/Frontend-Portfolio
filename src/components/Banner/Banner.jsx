@@ -9,20 +9,17 @@ const Banner = () => {
   const isAvailable = true;
 
   return (
-    <div id="home" className="py-5">
+    <div id="home" className="md:py-20 xl:py-0">
       <div className="relative w-full h-content overflow-hidden  ">
-        {/* 1. The Grid Layer - ALL OVER, NO MASK */}
         <div
           className="absolute inset-0 z-10 h-full w-full blur-[1px] 
         bg-[linear-gradient(to_right,#5bba6f_2px,transparent_1px),linear-gradient(to_bottom,#5bba6f_2px,transparent_1px)] 
         bg-size-[70px_70px] opacity-10"
         ></div>
 
-        {/* 3. Content Placeholder */}
         <div className="relative z-100 flex flex-col-reverse sm:flex-row justify-between container mx-auto overflow-hidden w-full min-h-screen items-center ">
           <div className="relative z-20 px-5 md:px-10 sm:pt-18 py-10 ">
             <div className="text-white xl:pt-20 xl:pl-20">
-              {/* Your "Frontend Developer" text goes here */}
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-emerald-500/40 bg-emerald-500/10 mb-6">
                 {/* The Status Dot */}
                 <span className={`relative flex h-2 w-2`}>
@@ -49,7 +46,7 @@ const Banner = () => {
                 )}
               </div>
               <div className="space-y-4">
-                <h1 className="text-4xl md:text-7xl font-bold capitalize text-white opacity-100 ">
+                <h1 className="text-6xl md:text-7xl font-bold capitalize text-white opacity-100 ">
                   frontend <br />{" "}
                   <span className="text-emerald-500">developer</span>
                 </h1>
@@ -60,7 +57,7 @@ const Banner = () => {
 
               <div className="mt-8">
                 <p className="font-medium text-sm md:text-base max-w-150 capitalize">
-                  i craft pixel-perfect interfaces with modern tools - turning
+                  i craft pixel-perfect interfaces with modern tools — turning
                   ideas into products that people actually enjoy using.
                 </p>
 
@@ -84,25 +81,40 @@ const Banner = () => {
                   </Link>
                 </div>
               </div>
-<hr className="text-white/10 border my-5 sm:my-10" />
-              <div className="flex justify-around">
+              <hr className="text-white/10 border my-5 sm:my-10" />
+              <div className="flex justify-around gap-2">
                 <div className="flex flex-col gap-1 justify-center items-center">
                   <p className="font-bold text-2xl flex items-center">
-                    350<span className="text-emerald-500 font-extrabold text-xl ">+</span>
+                    350
+                    <span className="text-emerald-500 font-extrabold text-xl ">
+                      +
+                    </span>
                   </p>
-                  <p className="font-normal text-xs sm:text-sm capitalize opacity-80">contributions on Github</p>
+                  <p className="font-normal text-xs sm:text-sm capitalize opacity-80 text-center">
+                    contributions on Github
+                  </p>
                 </div>
                 <div className="flex flex-col gap-1 justify-center items-center">
                   <p className="font-bold text-2xl flex items-center">
-                    10<span className="text-emerald-500 font-extrabold text-xl ">+</span>
+                    10
+                    <span className="text-emerald-500 font-extrabold text-xl ">
+                      +
+                    </span>
                   </p>
-                  <p className="font-normal text-xs sm:text-sm  capitalize opacity-80">frontend projects built</p>
+                  <p className="font-normal text-xs sm:text-sm  capitalize opacity-80 text-center">
+                    frontend projects built
+                  </p>
                 </div>
                 <div className="flex flex-col gap-1 justify-center items-center">
                   <p className="font-bold text-2xl flex items-center">
-                    100<span className="text-emerald-500 font-extrabold text-xl ">%</span>
+                    100
+                    <span className="text-emerald-500 font-extrabold text-xl ">
+                      %
+                    </span>
                   </p>
-                  <p className="font-normal text-xs sm:text-sm  capitalize opacity-80">conmmited to clean code</p>
+                  <p className="font-normal text-xs sm:text-sm  capitalize opacity-80 text-center">
+                    conmmited to clean code
+                  </p>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ import Navlogo from "@/assets/SignatureLogo.png";
 
 const NavBar = () => {
   return (
-    <div className="navbar  shadow-sm   px-10 fixed top-0 left-0 w-full !bg-[#080808] !opacity-100 z-[9999] border-b-2 border-white/10">
+    <div className="navbar  shadow-sm   px-10 fixed top-0 left-0 w-full bg-[#080808]! opacity-100! z-9999 border-b-2 border-white/10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -54,7 +54,12 @@ const NavBar = () => {
 
         <Link href={"#home"} className="relative  z-50">
           <Image
-            style="height: 38px; width: auto; max-width: 100%; display: block;"
+            style={{
+              height: "38px",
+              width: "auto",
+              maxWidth: "100%",
+              display: "block",
+            }}
             src={Navlogo}
             alt="NavLogo"
             className="w-60 "
@@ -90,7 +95,7 @@ const NavBar = () => {
       </div>
       <div className="navbar-end ">
         <div
-          className="p-[2px] rounded-md transition-all duration-300 hover:animate-border-slow"
+          className="p-0.5 rounded-md transition-all duration-300 hover:animate-border-slow"
           style={{
             background: `conic-gradient(from var(--angle), #10b981, #059669, #10b981)`,
             "--angle": "0deg",
