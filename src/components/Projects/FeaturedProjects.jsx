@@ -14,7 +14,7 @@ const FeaturedProjects = () => {
             featured projects
           </h1>
           <div className="mx-auto my-5 h-1.5 w-30 bg-linear-to-r from-emerald-700 via-cyan-300 to-blue-400"></div>
-          <p className="font-medium text-xl capitalize text-center">
+          <p className="font-medium text-xl capitalize text-center text-gray-400">
             a selection of real work — each one a problem solved, not just a
             design exercise
           </p>
@@ -67,7 +67,7 @@ const FeaturedProjects = () => {
                   MongoDB
                 </span>
                 <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3">
-                  tailwindCSS
+                  tailwind CSS
                 </span>
               </div>
             </div>
@@ -119,7 +119,7 @@ const FeaturedProjects = () => {
                   react
                 </span>
                 <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
-                  tailwindCSS
+                  tailwind CSS
                 </span>
               </div>
             </div>

@@ -55,7 +55,7 @@ const OtherProjects = () => {
                                     html
                                 </span>
                                 <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
-                                  TailwindCSS
+                                  Tailwind CSS
                                 </span>
                                 <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
                                   javaScript
@@ -94,13 +94,10 @@ const OtherProjects = () => {
             </div>
             <div className="p-3">
               <h3 className="font-semibold text-2xl capitalize mt-5 mb-3 md:text-xl lg:text-3xl">
-                KeenKeeper—Keep Your Friendships Alive
+                TechWave - Podcast Landing Page (UI)
               </h3>
               <p className="font-light text-base capitalize md:text-sm lg:text-base">
-                KeenKeeper is a friendship management app designed to help you
-                stay connected with the people who matter most. It gives you a
-                simple way to track interactions, manage friend details, and
-                view friendship activity in one clean dashboard.
+                TechWave is a modern, sleek, and responsive landing page design for a tech-focused podcast. It features sections highlighting podcast stats, key benefits, featured episodes, and host profiles with a beautiful, dark-themed futuristic aesthetic.
               </p>
               <div className="my-5 flex gap-4 flex-wrap">
                 <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
@@ -110,7 +107,7 @@ const OtherProjects = () => {
                   CSS
                 </span>
                 <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
-                  tailwindCSS
+                  tailwind CSS
                 </span>
               </div>
             </div>
@@ -159,7 +156,7 @@ const OtherProjects = () => {
                   react
                 </span>
                 <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
-                  tailwindCSS
+                  tailwind CSS
                 </span>
               </div>
             </div>
@@ -208,7 +205,7 @@ const OtherProjects = () => {
                   javaScript
                 </span>
                 <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
-                  tailwindCSS
+                  tailwind CSS
                 </span>
               </div>
             </div>
