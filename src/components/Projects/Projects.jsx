@@ -1,4 +1,5 @@
 import FeaturedProjects from "./FeaturedProjects";
+import OtherProjects from "./OtherProjects";
 
 
 const Projects = () => {
@@ -6,7 +7,7 @@ const Projects = () => {
     <div id="projects" className="max-w-11/12 mx-auto px-3 py-15">
       <FeaturedProjects/>
 
-      <div></div>
+      <OtherProjects />
     </div>
   );
 };

@@ -10,7 +10,7 @@ const FeaturedProjects = () => {
     <div className="mx-auto">
       <div>
         <div className="mb-15">
-          <h1 className="font-bold text-6xl uppercase text-center">
+          <h1 className="font-bold text-5xl sm:text-6xl uppercase text-center">
             featured projects
           </h1>
           <div className="mx-auto my-5 h-1.5 w-30 bg-linear-to-r from-emerald-700 via-cyan-300 to-blue-400"></div>
@@ -57,17 +57,17 @@ const FeaturedProjects = () => {
                 using BetterAuth, Next.js, and MongoDB.
               </p>
               <div className="my-5 flex flex-wrap gap-4">
-                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md uppercase bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3">
-                  Next.js
+                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3">
+                  Next.JS
                 </span>
-                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md uppercase bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3">
+                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3">
                   BetterAuth
                 </span>
-                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md uppercase bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3">
+                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3">
                   MongoDB
                 </span>
-                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md uppercase bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3">
-                  tailwindcss
+                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3">
+                  tailwindCSS
                 </span>
               </div>
             </div>
@@ -112,14 +112,14 @@ const FeaturedProjects = () => {
                 view friendship activity in one clean dashboard.
               </p>
               <div className="my-5 flex gap-4 flex-wrap">
-                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md uppercase bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
-                  next.js
+                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
+                  next.JS
                 </span>
-                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md uppercase bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
+                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
                   react
                 </span>
-                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md uppercase bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
-                  tailwindcss
+                <span className="border-2 border-olive-900 px-3 rounded-full p-2 text-md capitalize bg-emerald-300 text-emerald-900 font-bold opacity-75 md:text-sm md:p-1.5 flex items-center text-center lg:text-lg lg:p-2 lg:px-3 ">
+                  tailwindCSS
                 </span>
               </div>
             </div>
