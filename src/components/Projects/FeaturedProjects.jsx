@@ -10,11 +10,11 @@ const FeaturedProjects = () => {
     <div className="mx-auto">
       <div>
         <div className="mb-15">
-          <h1 className="font-bold text-5xl sm:text-6xl uppercase text-center">
+          <h1 className="font-bold text-5xl md:text-6xl uppercase text-center">
             featured projects
           </h1>
           <div className="mx-auto my-5 h-1.5 w-30 bg-linear-to-r from-emerald-700 via-cyan-300 to-blue-400"></div>
-          <p className="font-medium text-xl capitalize text-center text-gray-400">
+          <p className="font-medium text-xl capitalize text-center text-white/80">
             a selection of real work — each one a problem solved, not just a
             design exercise
           </p>
@@ -32,12 +32,16 @@ const FeaturedProjects = () => {
                 <div className="absolute top-4 right-5 z-10 flex gap-3 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
                   <Link
                     href={"https://github.com/Asraful-Alam-Sifat/Book-Lovers"}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-transparent border border-white/20 backdrop-blur-sm p-2 rounded-full flex justify-center items-center hover:bg-white/10 transition-colors"
                   >
                     <LogoGithub />
                   </Link>
                   <Link
                     href={"https://book-lovers-tan.vercel.app"}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-transparent border border-white/20 backdrop-blur-sm p-2 rounded-full flex justify-center items-center hover:bg-white/10 transition-colors"
                   >
                     <ArrowUpRightFromSquare />
@@ -86,6 +90,8 @@ const FeaturedProjects = () => {
                     href={
                       "https://github.com/Asraful-Alam-Sifat/KeenKeeper-Keep-Your-Friendships-Alive"
                     }
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-transparent border border-white/20 backdrop-blur-sm p-2 rounded-full flex justify-center items-center hover:bg-white/10 transition-colors"
                   >
                     <LogoGithub />
@@ -94,6 +100,8 @@ const FeaturedProjects = () => {
                     href={
                       "https://keen-keeper-keep-your-friendships-a.vercel.app"
                     }
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-transparent border border-white/20 backdrop-blur-sm p-2 rounded-full flex justify-center items-center hover:bg-white/10 transition-colors"
                   >
                     <ArrowUpRightFromSquare />

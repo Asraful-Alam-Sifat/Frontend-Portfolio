@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe/AboutMe";
 import Banner from "@/components/Banner/Banner";
 import NavBar from "@/components/NavBar/NavBar";
 import Projects from "@/components/Projects/Projects";
@@ -11,6 +12,7 @@ export default function Home() {
         <Banner/>
         <Projects/>
         <SkillsTech/>
+        <AboutMe/>
       </div>
   );
 }

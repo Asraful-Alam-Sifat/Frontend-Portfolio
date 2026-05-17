@@ -37,24 +37,26 @@ const skills = [
   {
     icon: LuGauge,
     title: "Performance Optimization",
-    description: "Optimize performance for better speed, SEO and user experience.",
+    description:
+      "Optimize performance for better speed, SEO and user experience.",
   },
   {
     icon: LuCloudUpload,
     title: "Deployment",
-    description: "Deploy and manage applications using modern tools and workflows.",
+    description:
+      "Deploy and manage applications using modern tools and workflows.",
   },
 ];
 
 const SkillsTech = () => {
   return (
-    <div className="max-w-11/12 mx-auto pt-15  ">
+    <div id="skills" className="max-w-11/12 mx-auto py-15 px-2  ">
       <div className="pb-5">
-        <h1 className="font-bold text-5xl sm:text-6xl text-center uppercase">
+        <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl text-center uppercase">
           skills & technologies
         </h1>
         <div className="h-1.5 max-w-30 mx-auto my-5 bg-linear-to-r from-[#C27AFF] via-[#E072DD] to-[#FB64B7]"></div>
-        <p className="font-medium text-xl text-center text-gray-400">
+        <p className="font-medium text-xl text-center text-white/80 capitalize">
           Here are the technologies and tools i use to bring ideas to life
         </p>
       </div>
@@ -120,26 +122,31 @@ const SkillsTech = () => {
           </div>
         </div>
 
-        <div  className="max-w-11/12 md:max-w-80 lg:max-w-100  mx-auto">
-          
+        <div className="max-w-11/12 md:max-w-80 lg:max-w-100  mx-auto">
           <div className="">
             {skills.map((item, index) => {
               const Icon = item.icon;
 
               return (
                 <div key={index} className="flex gap-5 mb-8">
-                 <div className="flex justify-center items-center">
-                     <div className="flex items-center justify-center w-14 h-14 rounded-full border border-emerald-500/30  shadow-[0_0_30px_rgba(16,185,129,0.3)] relative">
-                      
+                  <div className="flex justify-center items-center">
+                    <div className="flex items-center justify-center w-14 h-14 rounded-full border border-emerald-500/30  shadow-[0_0_30px_rgba(16,185,129,0.3)] relative">
                       <div className="absolute inset-0 bg-emerald-800 blur-md rounded-full opacity-40 z-10"></div>
-                       
-                    <Icon size={24} className="text-emerald-400 drop-shadow-[0_0_10px_rgba(52,211,153,0.6)] z-20" />
+
+                      <Icon
+                        size={24}
+                        className="text-emerald-400 drop-shadow-[0_0_10px_rgba(52,211,153,0.6)] z-20"
+                      />
+                    </div>
                   </div>
-                 </div>
 
                   <div>
-                    <h3 className="font-bold text-2xl md:text-xl mb-1.5">{item.title}</h3>
-                    <p className="font-light text-xl md:text-md opacity-80">{item.description}</p>
+                    <h3 className="font-bold text-2xl md:text-xl mb-1.5">
+                      {item.title}
+                    </h3>
+                    <p className="font-light text-xl md:text-md text-white/60">
+                      {item.description}
+                    </p>
                   </div>
                 </div>
               );

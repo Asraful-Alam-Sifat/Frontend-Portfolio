@@ -33,13 +33,12 @@ const NavBar = () => {
                 Projects
               </li>
             </Link>
-            <Link href={""}>
+            <Link href={"#skills"}>
               <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
                 Skills
               </li>
             </Link>
-            <Link href={""}>
-              {" "}
+            <Link href={"#About"}>
               <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
                 About
               </li>
@@ -73,14 +72,12 @@ const NavBar = () => {
               Projects
             </li>
           </Link>
-          <Link href={""}>
-            {" "}
+          <Link href={"#skills"}>
             <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
               Skills
             </li>
           </Link>
-          <Link href={""}>
-            {" "}
+          <Link href={"#About"}>
             <li className="text-gray-200 opacity-45 hover:text-white hover:opacity-95 transition-all duration-150">
               About
             </li>

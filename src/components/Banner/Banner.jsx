@@ -56,7 +56,7 @@ const Banner = () => {
               </div>
 
               <div className="mt-8">
-                <p className="font-medium text-sm md:text-base max-w-150 capitalize">
+                <p className="font-medium text-sm md:text-base max-w-150 capitalize text-white/60">
                   i craft pixel-perfect interfaces with modern tools — turning
                   ideas into products that people actually enjoy using.
                 </p>
@@ -67,9 +67,9 @@ const Banner = () => {
                     className="bg-emerald-500 flex gap-1 justify-center items-center p-3 rounded-sm hover:bg-transparent hover:border-2 hover:border-emerald-500 group transition-all duration-100"
                   >
                     <p className="font-bold text-xl sm:text-sm md:text-xl text-[#40513B] capitalize group-hover:text-white ">
-                      View my work{" "}
+                      View my work
                     </p>
-                    <ArrowRight className="text-[#40513B] font-bold text-xl sm:w-5 group-hover:text-white" />
+                    <ArrowRight className="text-[#40513B] font-extrabold text-xl sm:w-5 group-hover:text-white" />
                   </Link>
                   <Link
                     href={""}
@@ -90,7 +90,7 @@ const Banner = () => {
                       +
                     </span>
                   </p>
-                  <p className="font-normal text-xs sm:text-sm capitalize opacity-80 text-center">
+                  <p className="font-normal text-xs sm:text-sm capitalize text-white/60 text-center">
                     contributions on Github
                   </p>
                 </div>
@@ -101,7 +101,7 @@ const Banner = () => {
                       +
                     </span>
                   </p>
-                  <p className="font-normal text-xs sm:text-sm  capitalize opacity-80 text-center">
+                  <p className="font-normal text-xs sm:text-sm  capitalize text-white/60 text-center">
                     frontend projects built
                   </p>
                 </div>
@@ -112,7 +112,7 @@ const Banner = () => {
                       %
                     </span>
                   </p>
-                  <p className="font-normal text-xs sm:text-sm  capitalize opacity-80 text-center">
+                  <p className="font-normal text-xs sm:text-sm  capitalize text-white/60 text-center">
                     conmmited to clean code
                   </p>
                 </div>
